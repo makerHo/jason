@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.scrollFrame{
+			width: 540px;
+			height: 360px;
+			border: 1px solid red;
+			position: relative;
+			overflow: hidden;
+		}
+		.scrollContent{
+			position: absolute;
+			border:1px solid green;
+		}
+		.scrollContent img{
+			width: 540px;
+			height: 360px;
+			display: block;
+		}
+		.btn{
+			position: absolute;
+			right: 10px;
+			bottom: 0;
+			list-style:none;
+		}
+		.btn li{
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			border-radius: 25px;
+			background: #fff;
+		}
+		li.spotlight{
+			background: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="scrollFrame">
+		<div class="scrollContent">
+			<img src="img/1.jpg" alt="">
+			<img src="img/2.jpg" alt="">
+			<img src="img/3.jpg" alt="">
+			<img src="img/4.jpg" alt="">
+		</div>
+		<ul class="btn">
+			<li class="spotlight"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<script>
+	var scrollContent=document.querySelector(".scrollContent");
+	var imgObj=document.querySelector(".scrollFrame");
+	// console.log(imgObj)
+	var lis=document.querySelectorAll(".btn li");
+	autoPlay(1);
+		function autoPlay(index){
+			timer=setInterval(function(){
+				scrollContent.style.top=-imgObj.offsetHeight*index+"px";
+				// index是图片的索引值，每次向上移动的是图片的高度的倍数
+				for(var i=0;i<lis.length;i++){
+					lis[i].className="";
+				}
+				lis[index].className="spotlight";
+				index++;
+				// console.log(index);
+				// 限定index的范围
+				if(index==lis.length){
+					index=0;
+				}
+			},2000);
+		}
+
+	</script>
+</body>
+</html>
