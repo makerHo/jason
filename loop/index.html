@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.scrollFrame{
+			width:540px;
+			height:360px;
+			border:1px solid red;
+			position:relative;
+			overflow:hidden;
+		}
+		.scrollContent{
+			position:absolute;
+			border:1px soid green;
+		}
+		.scrollFrame img{
+			width:540px;
+			height:360px;
+			display:block;
+			/*float:left;*/
+		}
+		.btns{
+			/*background:red;*/
+			position:absolute;
+			right:10px;
+			bottom:0;
+			z-index:999;
+		}
+		.btns li{
+			display:inline-block;
+			width:15px;
+			height:15px;
+			border-radius:25px;
+			padding:5px;
+			background:#fff;
+			border:1px solid #ffff;
+
+		}
+		li.spotlight{
+			background:#ff5f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="scrollFrame">
+		<div class="scrollContent" id="scrollContent">
+			<img src="image/01.jpg" alt="">
+			<img src="image/02.jpg" alt="">
+			<img src="image/03.jpg" alt="">
+			<img src="image/04.jpg" alt="">
+		</div>
+		<div class="uls">
+			<ul class="btns">
+				<li class="spotlight"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<script>
+	var scrollContent=document.querySelector(".scrollContent");
+		// console.log(scrollContent)
+	var imgObj=document.querySelector(".scrollFrame img");
+	var lis=document.querySelectorAll(".btns li");
+		console.log(imgObj);
+		autoPlay(1);
+		//index是图片的索引值
+		function autoPlay(index){
+			timer=setInterval(function(){
+				scrollContent.style.top=-imgObj.offsetHeight*index+"px";
+					for(var i=0;i<lis.length;i++){
+						lis[i].className=""
+					}
+				lis[index].className="spotlight"
+				index++;
+				//限定index的范围
+				if(index==lis.length){
+					index=0;
+				}
+			},3000)
+		}
+	</script>
+</body>
+</html>
