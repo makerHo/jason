@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.reg{
+			width: 1000px;
+			height: 500px;
+			margin: 0 auto;
+			
+			border: 1px solid red;
+		}
+		.reg-1{
+			width: 500px;
+			height: 400px;
+			margin-top: 50px;
+			margin-left: 20px;
+			float: left;
+			background: url(img/18.png);
+			background-repeat: no-repeat;
+		}
+		.reg-2{
+			float: right;
+			width: 300px;
+			height: 75%;
+			margin-right: 50px;
+			margin-top: 30px;
+			background-color: #f6f6f6;
+			border: 1px solid green;
+		}
+		.reg-2-1{
+			width: 100%
+			height:60px;
+			line-height: 60px;
+		}
+		.reg-2-1 input{
+			margin-top: 40px;
+			margin-left: 30px;
+		}
+		.reg-2-2{
+			margin-left: 30px;
+		}	
+		.reg-2-2 input{
+			margin: 10px;
+			width: 200px;
+			height: 30px;
+		}
+		.reg-2-3{
+			font-size: 12px;
+		}
+		.reg-2-3-A{
+			width:110px ;
+			height: 20px;
+			float: right;
+			margin-right: 30px;
+		}
+		.reg-2-3 a{
+			text-decoration: none;
+		}
+		.reg-2-3 a:hover{
+			color: orange;
+		}
+		.reg-2-3-B {
+			float: left;
+			margin-left: 30px;
+		}
+		.reg-2-3-C input{
+			width: 204PX;
+			height: 34px;
+			margin-left: 40px;
+			background: lightgreen;
+			margin-top: 20px;
+		}	
+	</style>
+</head>
+<body>
+	<div class="reg">
+		<div class="reg-1">
+			
+		</div>
+		<div class="reg-2">
+			<div class="reg-2-1">
+				<input type="radio" id="i3" name="g2" checked="checked">
+				<label for="i3">账号登陆</label>
+				<input type="radio" id="i4" name="g2">
+				<label for="i4">短信验证码登陆</label>
+			</div>	
+
+			<div class="reg-2-2">
+				<input type="text" placeholder="手机号/邮箱/用户名"><br>
+				<input type="password" placeholder="请输入密码">
+			</div>	
+			<div class="reg-2-3">
+				<div class="reg-2-3-B">
+					<input type="checkbox" checked="checked">
+					<span>三个月内自动登陆</span>
+				</div>	
+				<div class="reg-2-3-A">
+					<a href="">忘记密码|</a>
+					<a href="">立即注册</a>
+				</div>
+				<div class="reg-2-3-C" >
+				<input type="button" value="登陆">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

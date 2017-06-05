@@ -1,0 +1,964 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrap{
+	width: 1200px;
+	/*border:1px solid green;*/
+	margin :0 auto;
+}
+header{
+	/*border: 1px solid #333;*/
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+}
+header a{
+	text-decoration: none;
+	
+}
+a:hover{
+	color: red;
+}
+.logo{
+	height: 54px;
+	width: 136px;
+	margin: 10px;
+	float: left;
+}
+.logout{
+	display: none;
+}
+.nav_left  li{
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 12px;
+
+}
+.nav_left{
+	width: 100%;
+	height: 30px;
+}
+.nav_right {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+.nav_right li{
+	float: left;
+	width:55px;
+	height: 44px;
+	line-height: 44px;
+	font-weight: bold;
+
+}
+.nav_right ul{
+	height: 45px;
+	line-height: 45px;
+	
+}
+.nav_right img{
+	height: 43px;
+	width: 152px;
+	float: right;
+}
+ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/************************header 部分样式*/
+.container{
+	width: 100%;
+}
+.container_left-A:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container_left-A{
+	width: 660px;
+	height: 338px;
+	float: left;
+	border: 3px solid #00afc7;
+	margin-top: 15px;
+}
+.container_left{
+	margin-left: 0;
+	width: 74px;
+	height: 336px;
+	border:1px solid #00afc7;
+	float: left;
+	
+}
+.container_left li{
+	width: 72px;
+	background: #00afc7;
+	border:1px solid #00afc7;
+	height: 40px;
+	background: #00afc7;
+
+
+
+}
+.container_left li a{
+	text-decoration:none;
+	display: block;
+	width: 72px;
+	height: 40px;
+	background: #00afc7;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+}
+.container_left li a:hover{
+	color: red;
+}
+.container_right{
+	float: right;
+	margin-top: 15px;
+	height: 138px;
+	background: red;
+}
+.container_right img{
+	width: 464px;
+	height: 336px;
+}
+/************************下面是container_left-A***************************/
+.container_left-A-R{
+	width: 530px;
+	height:300px; 
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.container_left-A-R1{
+	height: 41px;
+}
+.container_left-A-R1 a{
+	text-decoration: none;
+	color: #369;
+}
+.container_left-A-R1 a:hover{
+	color: red;
+}
+.container_left-A-R1-1{
+	float: left;
+	width:300px; 
+	height: 41px;
+}
+.container_left-A-R1-1 li{
+	float: left;
+	margin: 10px;
+	
+}
+
+.container_left-A-R1-2{
+	float: right;
+}
+
+.container_left-A-R1-2 li{
+	float: right;
+	margin: 10px;
+}
+/**********************************************/
+.container_left-A-R2{
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #ddd;
+	height: 235px;
+    width: 455px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px skyblue;
+    border-top: 3px solid #00afc7;
+
+}
+.container_left-A-R2-2{
+	margin-left: 20px;
+	width: 150px;
+	height: 20px;
+	margin-top: 10px;
+}
+.container_left-A-R2-2 input{
+	margin-top: 10px;
+}
+
+/*****************************.container_left-A-R1****************/
+.container_left-A-R2-3{
+	/*margin-top: 20px;*/
+}
+.container_left-A-R2-3-1{
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+.container_left-A-R2-3-1 input{
+	margin: 15px;
+	height: 35px;
+	width: 200px;
+}
+.container_left-A-R2-3-2{
+	width: 200px;
+	height: 160px;
+	float: left;
+	margin-left: 20px;
+}
+.container_left-A-R2-3-2 input{
+	margin: 15px;
+	height: 35px;
+	width: 200px;
+}
+.container_left-A-R2-3-3{
+	width: 200px;
+	height: 40px;
+	float: right;
+}
+.container_left-A-R2-3-3 input{
+	margin-right: 15px;
+	height: 35px;
+	width: 180px;
+	background: #ff6666;
+	cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/******************以上是container样式部分 */
+.container-bottom img{
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+}
+/***********************/
+.JRTH li{
+	width: 90px;
+	height: 35px;
+	background:#00afc7;
+	color: white;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin:5px;
+	text-align: center;
+	line-height: 35px;
+}
+/*/*****************************************以上是今日特惠部分/*/
+.banner{
+	width: 100%;
+}
+.banner-one{
+	width: 470px;
+	height: 238px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	border: 1px solid #999;
+}
+.banner-one img{
+	width: 262px;
+	height: 238px;
+}
+.banner-one-left{
+	float: left;
+}
+.banner-one-right{
+	height: 238px;
+}
+.banner-one-right-1{
+		width: 100%;
+		height: 70px;
+		background: #00afc7;
+		text-align: center;
+		line-height: 70px;
+		font-weight: bold;
+		font-size: 20px;
+		color: white;
+}
+.banner-one-right-2{
+	width: 100%;
+	height: 108px;
+	/*background: red;*/
+	text-align:center;
+	line-height: 30px;
+	background: white;
+}
+.banner-one-right-3{
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	position: relative;
+	left: 10px;
+	bottom: -30px;
+}
+/***************以上是banner-one样式部分*/
+.banner-two{
+	width: 262px;
+	height: 238px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px; 
+	border: 1px solid #999;
+}
+.banner-two img{
+	height:144px;
+	width: 262px;
+}
+.banner-two-right div{
+	font-weight: bold;
+	text-align: center;
+	margin: 5px;
+}
+.banner-two-right p{
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+}
+.banner-two-right span{
+	font-weight: bold;
+	color: red;
+	position: relative;
+	left: 10px;
+	bottom: -10px;
+}
+/*************************上面是banner two  部分样式*/
+.banner-three{
+	width: 262px;
+	height: 238px; 
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	border: 1px solid #999;
+}
+.banner-three img{
+	height:144px;
+	width: 262px;	
+}
+.banner-three-right div{
+	font-weight: bold;
+	text-align: center;
+	margin: 5px;
+}
+.banner-three-right p{
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+}
+.banner-three-right span{
+	font-weight: bold;
+	color: red;
+	position: relative;
+	left: 10px;
+	bottom: -10px;
+}
+/*****************以上是bannner-three部分样式*/
+.banner-1{
+	float: right;
+	width: 180px;
+	height: 208px;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.banner-1-bottom span{
+	color: red;
+	font-weight: bold;
+}
+.banner-1-top a{
+	text-decoration: none;
+}
+.banner-1-top a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+/**********************以上是banner--1 右边部分*/
+.banner-B{
+	width: 100%;
+	height: 238px;
+	float: left;
+	margin-top: 10px;
+	/*border: 1px solid red;	*/
+}
+.banner-B-one{
+	height: 238px;
+	width: 470px;
+	float: left;
+	margin-right: 5px;
+	border:1px solid #ddd;
+}
+.banner-B-one-left{
+	float: left;
+}
+.banner-B-one img{
+	width: 262px;
+	height: 238px;
+} 
+.banner-B-one-right{
+	float: left;
+	width: 208px;
+}
+.banner-B-one-right-1{
+	width: 100%;
+	height: 70px;
+	background: #00afc7;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+.banner-B-one-right-2{
+	height: 70px;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 15px;
+}
+.banner-B-one-right-3{
+	color: red;
+	font-weight: bold;
+	position:relative;
+	left: 10px;
+	bottom:-55px;
+}
+/*********************************以上是banner-B-one 样式*/
+.banner-B-two{
+	width: 262px;
+	height: 238px;
+	float: left;
+	margin-right: 5px; 
+	border: 1px solid #999;
+}
+.banner-B-two img{
+	height:144px;
+	width: 262px;
+}
+.banner-B-two-right div{
+	font-weight: bold;
+	text-align: center;
+	margin: 5px;
+}
+.banner-B-two-right p{
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+}
+.banner-B-two-right span{
+	font-weight: bold;
+	color: red;
+	position: relative;
+	left: 10px;
+	bottom: -10px;
+}
+/**********************************以上是banner-B-two部分************************/
+.banner-B-three{
+	width: 262px;
+	height: 238px; 
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #999;
+}
+.banner-B-three img{
+	height:144px;
+	width: 262px;	
+}
+.banner-B-three-right div{
+	font-weight: bold;
+	text-align: center;
+	margin: 5px;
+}
+.banner-B-three-right p{
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+}
+.banner-B-three-right span{
+	font-weight: bold;
+	color: red;
+	position: relative;
+	left: 10px;
+	bottom: -10px;
+}
+/************************以上是banner-B-three部分样式*/
+
+.banner-2{
+	float: right;
+	width: 180px;
+	height: 228px;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.banner-2 p{
+	font-size: 14px;
+}
+.banner-2 img{
+	width: 100%;
+	height: 148px;
+
+}
+/************************banner-2部分******************/
+.adv img{
+	 width: 1010px;
+	height:260px;
+	margin-top: 10px;
+}
+.adv-2 img{
+	width: 1010px;
+	height: 100px;
+}
+/*********************以上是广告部分******************/
+.clrfix:after{
+		content: "";
+		display: block;
+		clear: both;
+}
+.DJ{
+	height: 30px;
+	width: 990px;
+	margin-left: 20px;
+	line-height: 30px;
+	color: #00afc7;
+}
+.remen{
+	float: left;
+	margin-right: 10px;
+}
+
+.remen-1 ul{
+	width:210px;
+	height: 100px;
+	border: 1px solid #369; 
+}
+.remen p{
+	margin-top: 10px;
+	width: 190px;
+	height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    border: 1px solid #e2f3f8;
+    background: #e2f3f8;
+    color: #0286a0;
+    font-weight: 600;
+}
+.remen-1 li{
+
+	float: left;
+	margin: 6px;
+	font-size: 14px;
+}
+.remen-1 li a{
+	text-decoration: none;
+	color: #666;
+}
+.remen a:hover{
+	text-decoration: underline;
+	color:red;
+}
+/*****************************renmen-1 部分样式***********************/
+.remen-2 ul{
+	width:210px;
+	height: 100px;
+	border: 1px solid #999; 
+}
+.remen-2 li{
+
+	float: left;
+	margin: 6px;
+	font-size: 14px;
+
+}
+.remen-2 li a{
+	text-decoration: none;
+	color: #666;
+}
+/*******************************remen-2部分****************/
+
+.remen-3 ul{
+	width:210px;
+	height: 100px;
+	border: 1px solid #999; 
+}
+.remen-3 li{
+
+	float: left;
+	margin: 6px;
+	font-size: 14px;
+
+}
+.remen-3 li a{
+	text-decoration: none;
+	color: #666;
+}
+/*****************************************remen-3出境游*****************/
+.remen-4 {
+	height: 250px;
+}
+.remen-4 ul{
+	width:210px;
+	height: 100px;
+	border: 1px solid #999; 
+}
+.remen-4 li{
+
+	float: left;
+	margin: 6px;
+	font-size: 14px;
+
+}
+.remen-4 li a{
+	text-decoration: none;
+	color: #666;
+}
+/*****************************************remen-4签证*****************/
+.remen-5{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-5 img{
+	width: 100%;
+}
+.remen-5-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-5-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-5-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-5-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-5-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+
+}
+/************************热门5***************/
+.remen-6{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-6 img{
+	width: 100%;
+}
+.remen-6-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-6-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-6-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-6-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-6-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+/**********************以上是remen6的样式部分**********/
+.remen-7{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-7 img{
+	width: 100%;
+}
+.remen-7-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-7-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-7-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-7-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-7-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+/***********************以上是remen7样式部分*************/
+.remen-8{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-8 img{
+	width: 100%;
+}
+.remen-8-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-8-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-8-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-8-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-8-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+/***********************以上是remen8样式部分*************/
+.remen-9{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-9 img{
+	width: 100%;
+}
+.remen-9-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-9-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-9-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-9-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-9-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+/***********************以上是remen9样式部分*************/
+.remen-10{
+	float: left;
+	width: 260px;
+	height: 272px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	position: relative;
+}
+.remen-10 img{
+	width: 100%;
+}
+.remen-10-1{
+	width: 50%;
+	height: 50px;
+	left: 65px;
+	top: 110px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	text-align: center;
+}
+.remen-10-1-sup{
+		font-weight: 900;
+		font-size: 20px;
+}
+.remen-10-1-sub{
+	color: yellow;
+	font-weight: bold;
+}
+.remen-10-2{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #999;
+}
+.remen-10-3{
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+
+/**********************以上是remen9样式部分**********部分样式*/
+.foot{
+	width: 1600px;
+	height: 240px;
+	margin-left: -200px;
+	background: #009fbe;
+	position: relative;
+}
+
+.foot-1 {
+	background: url("img/16.png");
+	background-repeat: no-repeat;
+	width: 330px;
+	height: 240px;
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+}
+.foot-2 {
+	background: url("img/17.png");
+	background-repeat: no-repeat;
+	width: 285px;
+	height: 240px;
+	position: absolute;
+	left: 1000px;
+	bottom: 36px;
+}
+/*************************footer部分样式************/
+.foot-3 {
+	width: 1200px;
+	height: 60px;
+	margin: 5px;
+}
+
+.foot-3 dl dt{
+	float: left;
+	margin: 5px;
+}
+.foot-3 dl dd{
+	float: left;
+	margin: 5px;
+	font-size: 14px;
+	color: #999;
+}
+.foot-3 dd a{
+	text-decoration: none;
+	color: #999;
+}
+.foot-3 a:hover{
+	color: orange;
+}
+
+/******************************以上是foot-3样式部分*************/
+.foot-4 {
+	width: 1200px;
+	height: 84px;
+}
+.foot-4 dl dt{
+	float: left;
+	margin: 5px;
+}
+.foot-4 dl dd{
+	float: left;
+	margin: 5px;
+	font-size: 14px;
+	color: #999;
+}
+.foot-4 dd a{
+	text-decoration: none;
+	color: #999;
+}
+.foot-4 a:hover{
+	color: orange;
+}
